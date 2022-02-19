@@ -1,5 +1,5 @@
-open class Conta (
-    var saldo: String,
+abstract class Conta (
+  
     var agencia:String,
     var numeroDaConta:Byte,
     var gerente:String,
