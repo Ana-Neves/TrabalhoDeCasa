@@ -1,4 +1,4 @@
-abstract class Gerente (
+class Gerente (
     salario:String,
     turno:String,
 
@@ -8,7 +8,6 @@ abstract class Gerente (
     senha:String,
     nome:String,
     telefone:String,
-    saldo: String,
     agencia:String,
     numeroDaConta:Byte,
     gerente:String,
@@ -21,7 +20,6 @@ abstract class Gerente (
     senha = senha,
     nome = nome,
     telefone = telefone,
-    saldo = saldo,
     agencia = agencia,
     numeroDaConta = numeroDaConta,
     gerente = gerente,
