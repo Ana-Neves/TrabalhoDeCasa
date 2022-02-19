@@ -1,4 +1,4 @@
-abstract class Cliente (
+ class Cliente (
     assalariados:String,
     profissionaisLiberais:String,
 
@@ -8,7 +8,6 @@ abstract class Cliente (
      senha:String,
      nome:String,
      telefone:String,
-     saldo: String,
      agencia:String,
      numeroDaConta:Byte,
      gerente:String,
@@ -21,7 +20,6 @@ abstract class Cliente (
     senha = senha,
     nome = nome,
     telefone = telefone,
-    saldo = saldo,
     agencia = agencia,
     numeroDaConta = numeroDaConta,
     gerente = gerente,
